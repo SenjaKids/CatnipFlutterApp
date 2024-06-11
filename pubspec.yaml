@@ -1,0 +1,65 @@
+name: zladag_flutter_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  carousel_slider: ^4.2.1
+  dartz: ^0.10.1
+  data_connection_checker_tv: ^0.3.5-nullsafety
+  dio: ^5.3.3
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.7
+  geocoding: ^2.1.1
+  geolocator: ^10.1.0
+  google_maps_flutter: ^2.5.0
+  http_parser: ^4.0.2
+  image_picker: ^1.0.4
+  intl: ^0.18.1
+  modal_bottom_sheet: ^2.1.2
+  otp_text_field: ^1.1.3
+  provider: ^6.0.5
+  row_overflow_count: ^0.0.2
+  shared_preferences: ^2.2.2
+  syncfusion_flutter_datepicker: ^23.1.42
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Mulish
+      fonts:
+        - asset: assets/fonts/Mulish-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Mulish-Regular.ttf
+        - asset: assets/fonts/Mulish-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Mulish-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Mulish-Bold.ttf
+          weight: 700
+    - family: SF-Pro
+      fonts:
+        - asset: assets/fonts/SF-Pro-Text-Light.otf
+          weight: 300
+        - asset: assets/fonts/SF-Pro-Text-Regular.otf
+        - asset: assets/fonts/SF-Pro-Text-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SF-Pro-Text-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/SF-Pro-Text-Bold.otf
+          weight: 700
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/icons/facilities/
+    - assets/icons/policy/
